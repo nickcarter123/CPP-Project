@@ -1,7 +1,4 @@
-#include "stdafx.h"
 #include <iostream>
-
-
 
 class Fraction
 {
@@ -10,10 +7,9 @@ private:
 	int m_denominator;
 
 public:
-	Fraction()
+	Fraction() :m_numerator(5), m_denominator(2)
 	{
-		m_numerator = 5;
-		m_denominator = 2;
+
 	}
 
 	int getNumerator() { return m_numerator; }
